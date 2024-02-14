@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(./pexels-dziana-hasanbekava-7809772.jpg);
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #4CAF50;
+}
+
+input[type="number"] {
+    padding: 5px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 50px;
+    color: #4CAF50;
+}
+
+.myavatar {
+    width: 100px;
+    /* Adjust the width as needed */
+    height: 100px;
+    /* Adjust the height as needed to maintain aspect ratio */
+    border-radius: 50%;
+    /* This creates a round shape */
+    border: 2px solid #ffc107;
+    /* Add a border around the image with a food-inspired color */
+    object-fit: cover;
+    /* This ensures the image fills the space while maintaining aspect ratio */
+    position: fixed;
+    bottom: 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: flex-end
+}
